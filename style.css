@@ -19,3 +19,16 @@ main {
 footer {
     color: #F2C763;
 }
+
+.otazka {
+    color: #f2c763d0;
+    background-color: #1a2633;
+    padding: 1em;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.odpoved {
+    border-left: 8px solid #BA2A2B;
+    padding-left: 20px;
+}
