@@ -32,3 +32,28 @@ footer {
     border-left: 8px solid #BA2A2B;
     padding-left: 20px;
 }
+
+table, td, th {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px 50px;   
+}
+
+th {
+    background-color: #1a2633;
+}
+
+caption {
+    font-size: 1.2em;
+}
+
+ol#search li {
+    padding: 5px 20px;
+}
+
+ol#search ul {
+    list-style: square;
+}
