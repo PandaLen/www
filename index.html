@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="./img/icon.png" type="image/png" sizes="16x16">
     <title>WWW</title>
 </head>
 
@@ -68,6 +68,7 @@
             </div>
         </section>
         <section>
+            <h2>Webové klienty</h2>
             <div class="otazka">2. Jak se nazývá program označovaný jako webový klient? Co je jeho úkolem? Vyjmenujte
                 nejpoužívanější webové klienty.</div>
             <div class="odpoved">
@@ -86,6 +87,7 @@
             </div>
         </section>
         <section>
+            <h2>Komunikace mezi webovým klientem a serverem</h2>
             <div class="otazka">3. Jak probíhá komunikace mezi webovým klientem a webovým serverem?</div>
             <div class="odpoved">
                 <p>
@@ -99,6 +101,7 @@
             </div>
         </section>
         <section>
+            <h2>HTTP</h2>
             <div class="otazka">4. Co je HTTP?</div>
             <div class="odpoved">
                 <p>
@@ -111,6 +114,7 @@
             </div>
         </section>
         <section>
+            <h2>Stavové kódy</h2>
             <div class="otazka">5. Vypište do tabulky stavové kódy HTTP.</div>
             <div class="odpoved">
                 <table>
@@ -143,6 +147,7 @@
             </div>
         </section>
         <section>
+            <h2>Protokol HTTP</h2>
             <div class="otazka">6. Proč se stále častěji využívá protokol HTTPS?</div>
             <div class="odpoved">
                 <p>
@@ -162,6 +167,7 @@
             </div>
         </section>
         <section>
+            <h2>URL</h2>
             <div class="otazka">7. Vysvětlete zkratku URL a připojte pět různých příkladů URL odkazů.</div>
             <div class="odpoved">
                 <p>
@@ -175,7 +181,7 @@
                     <div class="dropdown-content">
                         <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>
                         <a href="https://discord.com" target="_blank">https://discord.com</a>
-                        <a href="https://www.sspu-opava.cz/cs/" targt="_blank">https://www.sspu-opava.cz/cs/</a>
+                        <a href="https://www.sspu-opava.cz/cs/" target="_blank">https://www.sspu-opava.cz/cs/</a>
                         <a href="https://htmlcheatsheet.com" target="_blank">https://htmlcheatsheet.com</a>
                         <a href="https://www.youtube.com/watch?v=DIpSfk5hWQk"
                             target="_blank">https://www.youtube.com/watch?v=DIpSfk5hWQk</a>
@@ -184,11 +190,12 @@
             </div>
         </section>
         <section>
+            <h2>Cookies</h2>
             <div class="otazka">8. Co jsou a k čemu slouží tzv. cookies? Připojte obrázek ukazující uložená cookies k
                 některé internetové stránce.</div>
             <div class="odpoved">
                 <p>
-                    Jako cookie (anglicky koláček, oplatka, sušenka) se v protokolu HTTP označuje malé množství dat,
+                    Jako cookie (<i>anglicky koláček, oplatka, sušenka</i>) se v protokolu HTTP označuje malé množství dat,
                     která WWW server pošle prohlížeči a ten je uloží na počítači uživatele. Při každé další návštěvě
                     téhož serveru pak prohlížeč tato data posílá zpět serveru. Cookies běžně slouží k rozlišování
                     jednotlivých uživatelů, ukládá se do nich obsah „nákupního košíku“ v elektronických obchodech,
@@ -202,11 +209,12 @@
             </div>
         </section>
         <section>
+            <h2>Fungování prohlížečů</h2>
             <div class="otazka">9. Vypište přehledně jednotlivé fáze fungování internetových vyhledávačů.</div>
             <div class="odpoved">
                 <ol id="search">
                     <li>
-                        Prohledání webových stránek. Pro prohledání webových stránek má internetový vyhledávač
+                        <strong>Prohledání webových stránek.</strong> Pro prohledání webových stránek má internetový vyhledávač
                         automatický program, tzv. vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který
                         prochází celý webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst
                         (odkazů), jejichž obsah si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu,
@@ -217,20 +225,20 @@
                         nemá úplně aktuální informace, ale prezentuje je se zpožděním.
                     </li>
                     <li>
-                        Indexování. Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby
+                        <strong>Indexování.</strong> Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby
                         bylo možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň
                         je nutné vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou
                         hodnotou (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu). Pro výpočet relevance se
                         používají nejrůznější algoritmy, které jsou založeny na nejrůznějších znacích stránek a různých
                         úhlech analýzy jejich obsahu.
                         <ul>
-                            <li>Váha slov. Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu. Váha
+                            <li><strong>Váha slov.</strong> Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu. Váha
                                 slov se zvyšuje, je-li slovo v titulku stránky, nadpisu nebo blíže k začátku stránky,
                                 případně se na stránce opakuje. Váhu slov lze zneužít vkládáním atraktivních slov do
                                 obsahu stránky bez ohledu na její skutečný obsah nebo prostým opakováním slov.
                                 Vyhledávač se brání penalizací (snížením kvality) podezřelých stránek. </li>
                             <li>
-                                Atraktivita stránky. Stránka má vyšší hodnocení, když na ni odkazuje více jiných
+                                <strong>Atraktivita stránky.</strong> Stránka má vyšší hodnocení, když na ni odkazuje více jiných
                                 stránek, protože zřejmě obsahuje zajímavé informace. Atraktivitu lze zneužít vytvářením
                                 falešných stránek, které odkazují na stránku, která má získat vyšší hodnocení.
                                 Vyhledávač se brání sledováním podezřelého náhlého hromadění odkazů.
@@ -238,7 +246,7 @@
                         </ul>
                     </li>
                     <li>
-                        Vyhledávání. Databáze a její index se zpřístupní na vstupní stránce vyhledávače. Uživatel získá
+                        <strong>Vyhledávání.</strong> Databáze a její index se zpřístupní na vstupní stránce vyhledávače. Uživatel získá
                         po zadání hledaných slov seznam adres, na kterých robot hledaná slova našel. Pro vyšší
                         přehlednost se zobrazuje kromě odkazu ještě titulek stránky, a okolí nalezených slov.
                     </li>
@@ -246,6 +254,7 @@
             </div>
         </section>
         <section>
+            <h2>HTML</h2>
             <div class="otazka">10. Vysvětlete zkratku HTML a pojem hypertext.</div>
             <div class="odpoved">
                 <p>
